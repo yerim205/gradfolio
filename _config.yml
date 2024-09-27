@@ -1,39 +1,64 @@
-### your site title here
+# Site Information
+title: Yerim Kim
+description: Undergraduate Student | Department of Computer Science | Sookmyung Women’s University
 
-title: Your Name
-description: subtitle | affiliations | motto
+# Base URL and Custom URL
+baseurl: /gradfolio # Repository name
+url: "" # If you have a custom domain, specify it here (e.g., https://yourdomain.com)
 
-baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
-email: #
+# Contact Information
+email: yerim205@sookmyung.ac.kr
 
-# Pagination
+# Profile Photo
+profile_photo: profile.jpeg # Make sure the image is in the appropriate directory (e.g., assets/images/)
+
+# Pagination Settings
 paginate: 4
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
-# Social media links in footer
-twitter: "#"
-linkedin: "#"
-stackoverflow: "#"
+# Social Media Links
 github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
 instagram: "#"
-facebook: "#"
 
-
-# Markdown
+# Markdown Settings
 highlighter: rouge
 markdown: kramdown
 
-# Tracker
+# Analytics Tracker (Optional)
 analytics:
 
-# optimization -> compress.html
+# HTML Compression
 compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  clippings:
+    [
+      html,
+      div,
+      p,
+      ul,
+      td,
+      h1,
+      h2,
+      h3,
+      h4,
+      link,
+      meta,
+      footer,
+      nav,
+      img,
+      header,
+      hr,
+      br,
+      head,
+      style,
+      li,
+      ul,
+      ol,
+      time,
+      main,
+      script,
+      title,
+    ]
   comments: ["<!-- ", " -->"]
   endings: [all]
   ignore:
@@ -42,7 +67,7 @@ compress_html:
   profile: false
   startings: []
 
-#collection
+# Collections Configuration
 collections:
   projects:
     output: true
@@ -55,10 +80,12 @@ collections:
       - project5.md
       - project6.md
 
+# SASS Settings
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
 
+# Include/Exclude Files and Directories
 include:
   - _pages
 
@@ -66,6 +93,7 @@ exclude:
   - README.md
   - LICENSE.md
 
+# Jekyll Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
