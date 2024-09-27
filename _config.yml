@@ -1,11 +1,12 @@
 # Site Information
 title: Yerim Kim
 description: Undergraduate Student | Department of Computer Science | Sookmyung Women’s University
+introduction: >
+  Hello! My name is Yerim Kim, and I am currently an undergraduate student majoring in Computer Science at Sookmyung Women’s University. I am passionate about artificial intelligence, human-computer interaction, and robotics. I am always seeking opportunities to apply my knowledge in meaningful research and projects.
 
 # Base URL and Custom URL
 baseurl: /gradfolio # Repository name
-url: "" # If you have a custom domain, specify it here (e.g., https://yourdomain.com)
-
+url: ""
 # Contact Information
 email: yerim205@sookmyung.ac.kr
 
